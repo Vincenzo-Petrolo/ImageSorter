@@ -17,7 +17,7 @@ Example: ``` ./findImages.sh ~/home/user/PippoFace  ~/home/user/Pictures ~/home/
 If you want to contribute, or have any idea feel free to fork the repo, or open an issue.
 
 ## A word of caution
-The script might take longer times, I tested it with few benchmarks and took around 32 mins in order to search through 5000 pictures, intel i5. Obviously you can speed it up by using 4 cores adding at ``` line 13``` of ``` ```findImages.sh``` the following ``` --cpus <numebr of cores> ```.
+The script might take longer times, I tested it with few benchmarks and took around 32 mins in order to search through ~5000 pictures, intel i5. Obviously you can speed it up by using 4 cores adding at ``` line 13``` of ```findImages.sh``` the following ``` --cpus <numebr of cores> ```.
 Here follows an example of doing it: 
 Before the line 13 is :
 ```python3 imgFind.py $1 $2 >> imgFind_result```
