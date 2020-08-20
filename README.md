@@ -11,7 +11,7 @@ This script requires face_recognition module dependencies. It may work just by `
 Make the script ```findImages.sh``` executable and then run as in the example 
 ``` ./findImages.sh <Directory path of known people> <Directory path of all the images> <Directory path where to move all the images found>```
 
-Example: ``` ./findImages.sh ~/home/user/PippoFace  ~/home/user/Pictures ~/home/user/Pictures/PictureOfPippo
+Example: ``` ./findImages.sh ~/home/user/PippoFace  ~/home/user/Pictures ~/home/user/Pictures/PictureOfPippo ```
 
 ## Contributing
 If you want to contribute, or have any idea feel free to fork the repo, or open an issue.
